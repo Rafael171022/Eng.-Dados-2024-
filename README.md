@@ -4,7 +4,7 @@
 
 - Parte 1 - Instalação do Delta, PySpark e Apache Iceberg
 - Parte 2 - Instalar pyspark e delta
-- ```python
+  ```python
     pip install pyspark
     pip instal delta 
   

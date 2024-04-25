@@ -28,3 +28,16 @@
     .appName("")
     .getOrCreate() 
   )
+
+- Parte 4: - Importar um arquivo CSV
+  ```python
+    df = spark.read.csv("work/CarPrice_Assignment (2).csv", header=True, inferSchema=True)
+
+- Parte 5: - Criar uma tabela temporária a partir do DataFrame
+  ```python
+    df.createOrReplaceTempView("carros")
+
+- Parte 5: - Executar uma consulta SQL na tabela temporária
+  ```python
+    resultado = spark.sql("SELECT * FROM carros WHERE fueltype = 'gas'")
+    resultado.show()

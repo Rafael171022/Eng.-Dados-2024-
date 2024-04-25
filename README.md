@@ -59,7 +59,7 @@
   ```python
   dados_ficticios_df.write.mode("append").insertInto("carros")
 
-- Parte 9: - Verificar se os dados foram adicionados corretamente à tabela temporária
+- Parte 10: - Verificar se os dados foram adicionados corretamente à tabela temporária
   ```python
   spark.sql("SELECT * FROM carros").show()
 

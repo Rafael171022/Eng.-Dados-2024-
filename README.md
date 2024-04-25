@@ -93,7 +93,7 @@
   ```python
   df_atualizado.createOrReplaceTempView("carros")
 
-- Parte 1: - Verificar se os dados foram excluídos corretamente na tabela temporária
+- Parte 4: - Verificar se os dados foram excluídos corretamente na tabela temporária
   ```python
   spark.sql("SELECT * FROM carros").show()
 

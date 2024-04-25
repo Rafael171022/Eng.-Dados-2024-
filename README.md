@@ -2,6 +2,13 @@
 
 ## PySpark e Jupyter
 
+### Baixar a imagem oficial do Jupyter-notebook
+  - docker pull jupyter/scipy-notebook
+
+### Criar e executar um container com base na imagem, assim poderemos acessar o Jupyter Notebook no navegador usando o endereço http://localhost:8888.
+  - docker run -p 8888:8888 my-jupyter-notebook
+
+### Agora que conseguimos rodar o jupyter-notebook precisamos seguir esse passo a passo:
 - Parte 1: - Instalação do Delta, PySpark e Apache Iceberg
   ```python
     pip install pyspark

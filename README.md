@@ -97,3 +97,59 @@
   ```python
   spark.sql("SELECT * FROM carros").show()
 
+## Delta Iceberg
+- Parte 1: # Inicializar uma sessão do Spark
+  ```python
+  spark = SparkSession.builder \
+      .appName("Tabela Iceberg") \
+      .config("spark.sql.catalog.default", "org.apache.iceberg.spark.SparkCatalog") \
+      .config("spark.sql.catalog.spark_catalog", "org.apache.iceberg.spark.SparkSessionCatalog") \
+      .getOrCreate()
+
+- Parte 2: - Ler o arquivo CSV e criar o DataFrame
+  ```python
+  df = spark.read.csv("work/CarPrice_Assignment (2).csv", header=True, inferSchema=True)
+
+- Parte 3: - Criar os dados fictícios
+  ```python
+  dados_ficticios = [
+    Row(car_ID=206, CarName='toyota camry', fueltype='gas', doornumber='four', carbody='sedan', enginelocation='front', price=20000),
+    Row(car_ID=207, CarName='honda accord', fueltype='gas', doornumber='two', carbody='convertible', enginelocation='front', price=25000),
+    Row(car_ID=208, CarName='ford mustang', fueltype='gas', doornumber='two', carbody='hatchback', enginelocation='rear', price=30000)
+  ]
+
+- Parte 4: - Criar DataFrame com os dados fictícios
+  ```python
+  dados_ficticios_df = spark.createDataFrame(dados_ficticios)
+
+- Parte 5: - Unir os dados do CSV com os dados fictícios
+  ```python
+  novo_df = df_csv.union(dados_ficticios_df)
+
+- Parte 6: - Salvar os dados na tabela Iceberg
+  ```python
+  novo_df.write.format("iceberg") \
+    .mode("overwrite") \  # Sobrescrever a tabela existente
+    .save("Tabela Iceberg")
+
+### Como fazer um UPDATE na tabela Iceberg
+
+- Parte 1: - Ler os dados da tabela Iceberg para um DataFrame
+  ```python
+  df_iceberg = spark.read.format("iceberg").load("work/CarPrice_Assignment (2).csv")
+
+- Parte 2: - Fazer as atualizações desejadas no DataFrame
+  Suponha que você queira atualizar o preço do carro com car_ID igual a 206 para 22000
+  ```python
+  df_iceberg = df_iceberg.withColumn("price", 
+                                   when(df_iceberg["car_ID"] == 206, 22000)
+                                   .otherwise(df_iceberg["price"]))
+
+- Parte 3: - Salvar o DataFrame atualizado de volta na tabela Iceberg
+  ```python
+  df_iceberg.write.format("iceberg") \
+    .mode("overwrite") \  # Sobrescrever os dados existentes
+    .save("Tabela Iceberg")
+
+
+  

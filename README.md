@@ -2,7 +2,7 @@
 
 ## PySpark, Jupyter, Delta lake e apache Iceberg
 
-### Antes de começar a trabalhar no nosso jupyter-nootbook vamos precisas instância-lo pelo docker da seguinte forma:
+### Antes de começar a trabalhar no nosso jupyter-nootbook vamos precisar instância-lo pelo docker da seguinte forma:
 ### Baixar a imagem oficial do Jupyter-notebook
   - docker pull jupyter/scipy-notebook
 

@@ -98,7 +98,7 @@
   spark.sql("SELECT * FROM carros").show()
 
 ## Delta Iceberg
-- Parte 1: # Inicializar uma sessão do Spark
+- Parte 1: - Inicializar uma sessão do Spark
   ```python
   spark = SparkSession.builder \
       .appName("Tabela Iceberg") \
@@ -146,6 +146,23 @@
                                    .otherwise(df_iceberg["price"]))
 
 - Parte 3: - Salvar o DataFrame atualizado de volta na tabela Iceberg
+  ```python
+  df_iceberg.write.format("iceberg") \
+    .mode("overwrite") \  # Sobrescrever os dados existentes
+    .save("Tabela Iceberg")
+
+### Como fazer um DELETE na tabela Iceberg
+
+- Parte 1: - Ler os dados da tabela Iceberg para um DataFrame
+  ```python
+  df_iceberg = spark.read.format("iceberg").load("work/CarPrice_Assignment (2).csv")
+
+- Parte 2: - Aplicar a condição para filtrar os dados que você deseja excluir
+    Suponha que você queira excluir o carro com car_ID igual a 206
+  ```python
+  df_iceberg = df_iceberg.filter(df_iceberg["car_ID"] != 206)
+
+- Parte 3: - Salvar o DataFrame filtrado de volta na tabela Iceberg
   ```python
   df_iceberg.write.format("iceberg") \
     .mode("overwrite") \  # Sobrescrever os dados existentes

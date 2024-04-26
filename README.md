@@ -138,8 +138,7 @@
   ```python
   df_iceberg = spark.read.format("iceberg").load("work/CarPrice_Assignment (2).csv")
 
-- Parte 2: - Fazer as atualizações desejadas no DataFrame
-  Suponha que você queira atualizar o preço do carro com car_ID igual a 206 para 22000
+- Parte 2: - Fazer as atualizações desejadas no DataFrame. Vamos supor que gostariamos de atualizar o preço do carro com car_ID igual a 206 para 22000
   ```python
   df_iceberg = df_iceberg.withColumn("price", 
                                    when(df_iceberg["car_ID"] == 206, 22000)
@@ -157,8 +156,7 @@
   ```python
   df_iceberg = spark.read.format("iceberg").load("work/CarPrice_Assignment (2).csv")
 
-- Parte 2: - Aplicar a condição para filtrar os dados que você deseja excluir
-    Suponha que você queira excluir o carro com car_ID igual a 206
+- Parte 2: - Aplicar a condição para filtrar os dados que você deseja excluir. Vamos supor que gostariamos de excluir o carro com car_ID igual a 206
   ```python
   df_iceberg = df_iceberg.filter(df_iceberg["car_ID"] != 206)
 

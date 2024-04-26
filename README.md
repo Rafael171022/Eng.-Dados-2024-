@@ -1,6 +1,6 @@
 # Projeto de Engenharia de dados
 
-## PySpark e Jupyter
+## PySpark, Jupyter, Delta lake e apache Iceberg
 
 ### Antes de começar a trabalhar no nosso jupyter-nootbook vamos precisas instância-lo pelo docker da seguinte forma:
 ### Baixar a imagem oficial do Jupyter-notebook

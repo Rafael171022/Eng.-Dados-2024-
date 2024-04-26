@@ -98,6 +98,11 @@
   spark.sql("SELECT * FROM carros").show()
 
 ## Delta Iceberg
+- Importação das bibliotecas
+  ```
+  import org.apache.iceberg.spark.SparkSchemaUtil
+  import org.apache.iceberg.catalog.Namespace
+  
 - Parte 1: - Inicializar uma sessão do Spark
   ```python
   spark = SparkSession.builder \

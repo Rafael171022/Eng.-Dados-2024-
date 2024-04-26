@@ -1,0 +1,206 @@
+car_ID,CarName,fueltype,doornumber,carbody,enginelocation,price
+1,alfa-romero giulia,gas,two,convertible,front,13495
+2,alfa-romero stelvio,gas,two,convertible,front,16500
+3,alfa-romero Quadrifoglio,gas,two,hatchback,front,16500
+4,audi 100 ls,gas,four,sedan,front,13950
+5,audi 100ls,gas,four,sedan,front,17450
+6,audi fox,gas,two,sedan,front,15250
+7,audi 100ls,gas,four,sedan,front,17710
+8,audi 5000,gas,four,wagon,front,18920
+9,audi 4000,gas,four,sedan,front,23875
+10,audi 5000s (diesel),gas,two,hatchback,front,17859167
+11,bmw 320i,gas,two,sedan,front,16430
+12,bmw 320i,gas,four,sedan,front,16925
+13,bmw x1,gas,two,sedan,front,20970
+14,bmw x3,gas,four,sedan,front,21105
+15,bmw z4,gas,four,sedan,front,24565
+16,bmw x4,gas,four,sedan,front,30760
+17,bmw x5,gas,two,sedan,front,41315
+18,bmw x3,gas,four,sedan,front,36880
+19,chevrolet impala,gas,two,hatchback,front,5151
+20,chevrolet monte carlo,gas,two,hatchback,front,6295
+21,chevrolet vega 2300,gas,four,sedan,front,6575
+22,dodge rampage,gas,two,hatchback,front,5572
+23,dodge challenger se,gas,two,hatchback,front,6377
+24,dodge d200,gas,two,hatchback,front,7957
+25,dodge monaco (sw),gas,four,hatchback,front,6229
+26,dodge colt hardtop,gas,four,sedan,front,6692
+27,dodge colt (sw),gas,four,sedan,front,7609
+28,dodge coronet custom,gas,two,sedan,front,8558
+29,dodge dart custom,gas,four,wagon,front,8921
+30,dodge coronet custom (sw),gas,two,hatchback,front,12964
+31,honda civic,gas,two,hatchback,front,6479
+32,honda civic cvcc,gas,two,hatchback,front,6855
+33,honda civic,gas,two,hatchback,front,5399
+34,honda accord cvcc,gas,two,hatchback,front,6529
+35,honda civic cvcc,gas,two,hatchback,front,7129
+36,honda accord lx,gas,four,sedan,front,7295
+37,honda civic 1500 gl,gas,four,wagon,front,7295
+38,honda accord,gas,two,hatchback,front,7895
+39,honda civic 1300,gas,two,hatchback,front,9095
+40,honda prelude,gas,four,sedan,front,8845
+41,honda accord,gas,four,sedan,front,10295
+42,honda civic,gas,four,sedan,front,12945
+43,honda civic (auto),gas,two,sedan,front,10345
+44,isuzu MU-X,gas,four,sedan,front,6785
+45,isuzu D-Max ,gas,two,sedan,front,8916.5
+46,isuzu D-Max V-Cross,gas,four,sedan,front,8916.5
+47,isuzu D-Max ,gas,two,hatchback,front,11048
+48,jaguar xj,gas,four,sedan,front,32250
+49,jaguar xf,gas,four,sedan,front,35550
+50,jaguar xk,gas,two,sedan,front,36000
+51,maxda rx3,gas,two,hatchback,front,5195
+52,maxda glc deluxe,gas,two,hatchback,front,6095
+53,mazda rx2 coupe,gas,two,hatchback,front,6795
+54,mazda rx-4,gas,four,sedan,front,6695
+55,mazda glc deluxe,gas,four,sedan,front,7395
+56,mazda 626,gas,two,hatchback,front,10945
+57,mazda glc,gas,two,hatchback,front,11845
+58,mazda rx-7 gs,gas,two,hatchback,front,13645
+59,mazda glc 4,gas,two,hatchback,front,15645
+60,mazda 626,gas,two,hatchback,front,8845
+61,mazda glc custom l,gas,four,sedan,front,8495
+62,mazda glc custom,gas,two,hatchback,front,10595
+63,mazda rx-4,gas,four,sedan,front,10245
+64,mazda glc deluxe,diesel,four,sedan,front,10795
+65,mazda 626,gas,four,hatchback,front,11245
+66,mazda glc,gas,four,sedan,front,18280
+67,mazda rx-7 gs,diesel,four,sedan,front,18344
+68,buick electra 225 custom,diesel,four,sedan,front,25552
+69,buick century luxus (sw),diesel,four,wagon,front,28248
+70,buick century,diesel,two,hardtop,front,28176
+71,buick skyhawk,diesel,four,sedan,front,31600
+72,buick opel isuzu deluxe,gas,four,sedan,front,34184
+73,buick skylark,gas,two,convertible,front,35056
+74,buick century special,gas,four,sedan,front,40960
+75,buick regal sport coupe (turbo),gas,two,hardtop,front,45400
+76,mercury cougar,gas,two,hatchback,front,16503
+77,mitsubishi mirage,gas,two,hatchback,front,5389
+78,mitsubishi lancer,gas,two,hatchback,front,6189
+79,mitsubishi outlander,gas,two,hatchback,front,6669
+80,mitsubishi g4,gas,two,hatchback,front,7689
+81,mitsubishi mirage g4,gas,two,hatchback,front,9959
+82,mitsubishi g4,gas,two,hatchback,front,8499
+83,mitsubishi outlander,gas,two,hatchback,front,12629
+84,mitsubishi g4,gas,two,hatchback,front,14869
+85,mitsubishi mirage g4,gas,two,hatchback,front,14489
+86,mitsubishi montero,gas,four,sedan,front,6989
+87,mitsubishi pajero,gas,four,sedan,front,8189
+88,mitsubishi outlander,gas,four,sedan,front,9279
+89,mitsubishi mirage g4,gas,four,sedan,front,9279
+90,Nissan versa,gas,two,sedan,front,5499
+91,nissan gt-r,diesel,two,sedan,front,7099
+92,nissan rogue,gas,two,sedan,front,6649
+93,nissan latio,gas,four,sedan,front,6849
+94,nissan titan,gas,four,wagon,front,7349
+95,nissan leaf,gas,two,sedan,front,7299
+96,nissan juke,gas,two,hatchback,front,7799
+97,nissan latio,gas,four,sedan,front,7499
+98,nissan note,gas,four,wagon,front,7999
+99,nissan clipper,gas,two,hardtop,front,8249
+100,nissan rogue,gas,four,hatchback,front,8949
+101,nissan nv200,gas,four,sedan,front,9549
+102,nissan dayz,gas,four,sedan,front,13499
+103,nissan fuga,gas,four,wagon,front,14399
+104,nissan otti,gas,four,sedan,front,13499
+105,nissan teana,gas,two,hatchback,front,17199
+106,nissan kicks,gas,two,hatchback,front,19699
+107,nissan clipper,gas,two,hatchback,front,18399
+108,peugeot 504,gas,four,sedan,front,11900
+109,peugeot 304,diesel,four,sedan,front,13200
+110,peugeot 504 (sw),gas,four,wagon,front,12440
+111,peugeot 504,diesel,four,wagon,front,13860
+112,peugeot 504,gas,four,sedan,front,15580
+113,peugeot 604sl,diesel,four,sedan,front,16900
+114,peugeot 504,gas,four,wagon,front,16695
+115,peugeot 505s turbo diesel,diesel,four,wagon,front,17075
+116,peugeot 504,gas,four,sedan,front,16630
+117,peugeot 504,diesel,four,sedan,front,17950
+118,peugeot 604sl,gas,four,sedan,front,18150
+119,plymouth fury iii,gas,two,hatchback,front,5572
+120,plymouth cricket,gas,two,hatchback,front,7957
+121,plymouth fury iii,gas,four,hatchback,front,6229
+122,plymouth satellite custom (sw),gas,four,sedan,front,6692
+123,plymouth fury gran sedan,gas,four,sedan,front,7609
+124,plymouth valiant,gas,four,wagon,front,8921
+125,plymouth duster,gas,two,hatchback,front,12764
+126,porsche macan,gas,two,hatchback,front,22018
+127,porcshce panamera,gas,two,hardtop,rear,32528
+128,porsche cayenne,gas,two,hardtop,rear,34028
+129,porsche boxter,gas,two,convertible,rear,37028
+130,porsche cayenne,gas,two,hatchback,front,31400.5
+131,renault 12tl,gas,four,wagon,front,9295
+132,renault 5 gtl,gas,two,hatchback,front,9895
+133,saab 99e,gas,two,hatchback,front,11850
+134,saab 99le,gas,four,sedan,front,12170
+135,saab 99le,gas,two,hatchback,front,15040
+136,saab 99gle,gas,four,sedan,front,15510
+137,saab 99gle,gas,two,hatchback,front,18150
+138,saab 99e,gas,four,sedan,front,18620
+139,subaru,gas,two,hatchback,front,5118
+140,subaru dl,gas,two,hatchback,front,7053
+141,subaru dl,gas,two,hatchback,front,7603
+142,subaru,gas,four,sedan,front,7126
+143,subaru brz,gas,four,sedan,front,7775
+144,subaru baja,gas,four,sedan,front,9960
+145,subaru r1,gas,four,sedan,front,9233
+146,subaru r2,gas,four,sedan,front,11259
+147,subaru trezia,gas,four,wagon,front,7463
+148,subaru tribeca,gas,four,wagon,front,10198
+149,subaru dl,gas,four,wagon,front,8013
+150,subaru dl,gas,four,wagon,front,11694
+151,toyota corona mark ii,gas,two,hatchback,front,5348
+152,toyota corona,gas,two,hatchback,front,6338
+153,toyota corolla 1200,gas,four,hatchback,front,6488
+154,toyota corona hardtop,gas,four,wagon,front,6918
+155,toyota corolla 1600 (sw),gas,four,wagon,front,7898
+156,toyota carina,gas,four,wagon,front,8778
+157,toyota mark ii,gas,four,sedan,front,6938
+158,toyota corolla 1200,gas,four,hatchback,front,7198
+159,toyota corona,diesel,four,sedan,front,7898
+160,toyota corolla,diesel,four,hatchback,front,7788
+161,toyota corona,gas,four,sedan,front,7738
+162,toyota corolla,gas,four,hatchback,front,8358
+163,toyota mark ii,gas,four,sedan,front,9258
+164,toyota corolla liftback,gas,two,sedan,front,8058
+165,toyota corona,gas,two,hatchback,front,8238
+166,toyota celica gt liftback,gas,two,sedan,front,9298
+167,toyota corolla tercel,gas,two,hatchback,front,9538
+168,toyota corona liftback,gas,two,hardtop,front,8449
+169,toyota corolla,gas,two,hardtop,front,9639
+170,toyota starlet,gas,two,hatchback,front,9989
+171,toyota tercel,gas,two,hardtop,front,11199
+172,toyota corolla,gas,two,hatchback,front,11549
+173,toyota cressida,gas,two,convertible,front,17669
+174,toyota corolla,gas,four,sedan,front,8948
+175,toyota celica gt,diesel,four,sedan,front,10698
+176,toyota corona,gas,four,hatchback,front,9988
+177,toyota corolla,gas,four,sedan,front,10898
+178,toyota mark ii,gas,four,hatchback,front,11248
+179,toyota corolla liftback,gas,two,hatchback,front,16558
+180,toyota corona,gas,two,hatchback,front,15998
+181,toyota starlet,gas,four,sedan,front,15690
+182,toyouta tercel,gas,four,wagon,front,15750
+183,vokswagen rabbit,diesel,two,sedan,front,7775
+184,volkswagen 1131 deluxe sedan,gas,two,sedan,front,7975
+185,volkswagen model 111,diesel,four,sedan,front,7995
+186,volkswagen type 3,gas,four,sedan,front,8195
+187,volkswagen 411 (sw),gas,four,sedan,front,8495
+188,volkswagen super beetle,diesel,four,sedan,front,9495
+189,volkswagen dasher,gas,four,sedan,front,9995
+190,vw dasher,gas,two,convertible,front,11595
+191,vw rabbit,gas,two,hatchback,front,9980
+192,volkswagen rabbit,gas,four,sedan,front,13295
+193,volkswagen rabbit custom,diesel,four,sedan,front,13845
+194,volkswagen dasher,gas,four,wagon,front,12290
+195,volvo 145e (sw),gas,four,sedan,front,12940
+196,volvo 144ea,gas,four,wagon,front,13415
+197,volvo 244dl,gas,four,sedan,front,15985
+198,volvo 245,gas,four,wagon,front,16515
+199,volvo 264gl,gas,four,sedan,front,18420
+200,volvo diesel,gas,four,wagon,front,18950
+201,volvo 145e (sw),gas,four,sedan,front,16845
+202,volvo 144ea,gas,four,sedan,front,19045
+203,volvo 244dl,gas,four,sedan,front,21485
+204,volvo 246,diesel,four,sedan,front,22470
+205,volvo 264gl,gas,four,sedan,front,22625
